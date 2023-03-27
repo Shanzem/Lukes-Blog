@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hacking - Tag - </title>
+        <link>https://shanzem.github.io/Lukes-Blog/tags/hacking/</link>
+        <description>Hacking - Tag - </description>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 23 Mar 2023 21:29:01 &#43;0800</lastBuildDate><atom:link href="https://shanzem.github.io/Lukes-Blog/tags/hacking/" rel="self" type="application/rss+xml" /><item>
+    <title>TryHackMe-ICE</title>
+    <link>https://shanzem.github.io/Lukes-Blog/posts/tryhackme-ice/</link>
+    <pubDate>Thu, 23 Mar 2023 21:29:01 &#43;0800</pubDate>
+    <author>Luke Hays</author>
+    <guid>https://shanzem.github.io/Lukes-Blog/posts/tryhackme-ice/</guid>
+    <description><![CDATA[<p>TryHackMe - Ice, To aquire ROOT on a windows 7 machine which is using a out of date version of Icecast with a known CVE to exploit. To execute arbitrary code.</p>]]></description>
+</item>
+<item>
+    <title>Collection of pictures for my Blog</title>
+    <link>https://shanzem.github.io/Lukes-Blog/posts/random-pics/</link>
+    <pubDate>Thu, 23 Mar 2023 21:29:01 &#43;0800</pubDate>
+    <author>Luke Hays</author>
+    <guid>https://shanzem.github.io/Lukes-Blog/posts/random-pics/</guid>
+    <description><![CDATA[<p>Assortment of random CTF / TryHackMe pictures of completions.</p>]]></description>
+</item>
+</channel>
+</rss>
