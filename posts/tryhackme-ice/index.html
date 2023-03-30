@@ -7,11 +7,11 @@
         <title>TryHackMe-ICE - </title><meta name="Description" content="TryHackMe - Ice, To aquire root on a windows 7 machine which is using a out of date version of icecast with a known CVE to exploit."><meta property="og:title" content="TryHackMe-ICE" />
 <meta property="og:description" content="TryHackMe - Ice, To aquire root on a windows 7 machine which is using a out of date version of icecast with a known CVE to exploit." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://shanzem.github.io/Lukes-Blog/posts/tryhackme-ice/" /><meta property="og:image" content="https://shanzem.github.io/Lukes-Blog/posts/tryhackme-ice/featured-image.jpg"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://shanzem.github.io/Lukes-Blog/posts/tryhackme-ice/" /><meta property="og:image" content="https://shanzem.github.io/Lukes-Blog/posts/tryhackme-ice/featured-image.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-23T21:29:01+08:00" />
 <meta property="article:modified_time" content="2023-03-23T21:29:01+08:00" /><meta property="og:site_name" content="My cool site" />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://shanzem.github.io/Lukes-Blog/posts/tryhackme-ice/featured-image.jpg"/>
+<meta name="twitter:image" content="https://shanzem.github.io/Lukes-Blog/posts/tryhackme-ice/featured-image.png"/>
 <meta name="twitter:title" content="TryHackMe-ICE"/>
 <meta name="twitter:description" content="TryHackMe - Ice, To aquire root on a windows 7 machine which is using a out of date version of icecast with a known CVE to exploit."/>
 <meta name="application-name" content="My cool site">
@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/shanzem.github.io\/Lukes-Blog\/posts\/tryhackme-ice\/"
-        },"genre": "posts","keywords": "Hacking, Learning, TryHackMe","wordcount":  1136 ,
+        },"genre": "posts","keywords": "Hacking, Learning, TryHackMe","wordcount":  1138 ,
         "url": "https:\/\/shanzem.github.io\/Lukes-Blog\/posts\/tryhackme-ice\/","datePublished": "2023-03-23T21:29:01+08:00","dateModified": "2023-03-23T21:29:01+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -70,7 +70,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">TryHackMe-ICE</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://shanzem.github.io/Lukes-Blog" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Luke Hays</a></span>&nbsp;<span class="post-category">included in <a href="/Lukes-Blog/categories/hacking-tryhackme/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hacking - TryHackMe</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-03-23">2023-03-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1136 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-03-23">2023-03-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1138 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -297,7 +297,57 @@ arbitrary code via an HTTP request with a large number of headers.
 </code></pre><p>This Expolit will allow me to gain ROOT, I will now check Metasploit to see if it has a working script.</p>
 <p>For which it does.</p>
 <pre tabindex="0"><code class="language-list" data-lang="list">exploit/windows/http/icecast_header
-</code></pre></div><div class="post-footer" id="post-footer">
+</code></pre><p><figure><a class="lightgallery" href="/Lukes-Blog/posts/tryhackme-ice/icebackdoor.png" title="Basic configuration preview" data-thumbnail="/Lukes-Blog/posts/tryhackme-ice/icebackdoor.png" data-sub-html="<h2> </h2><p>Basic configuration preview</p>">
+        <img
+            class="lazyload"
+            src="/Lukes-Blog/svg/loading.min.svg"
+            data-src="/Lukes-Blog/posts/tryhackme-ice/icebackdoor.png"
+            data-srcset="/Lukes-Blog/posts/tryhackme-ice/icebackdoor.png, /Lukes-Blog/posts/tryhackme-ice/icebackdoor.png 1.5x, /Lukes-Blog/posts/tryhackme-ice/icebackdoor.png 2x"
+            data-sizes="auto"
+            alt="/Lukes-Blog/posts/tryhackme-ice/icebackdoor.png" width="1280" height="720" />
+    </a><figcaption class="image-caption"> </figcaption>
+    </figure></p>
+<p><figure><a class="lightgallery" href="/Lukes-Blog/posts/tryhackme-ice/iceloadkiwi.png" title="Basic configuration preview" data-thumbnail="/Lukes-Blog/posts/tryhackme-ice/iceloadkiwi.png" data-sub-html="<h2> </h2><p>Basic configuration preview</p>">
+        <img
+            class="lazyload"
+            src="/Lukes-Blog/svg/loading.min.svg"
+            data-src="/Lukes-Blog/posts/tryhackme-ice/iceloadkiwi.png"
+            data-srcset="/Lukes-Blog/posts/tryhackme-ice/iceloadkiwi.png, /Lukes-Blog/posts/tryhackme-ice/iceloadkiwi.png 1.5x, /Lukes-Blog/posts/tryhackme-ice/iceloadkiwi.png 2x"
+            data-sizes="auto"
+            alt="/Lukes-Blog/posts/tryhackme-ice/iceloadkiwi.png" width="1280" height="720" />
+    </a><figcaption class="image-caption"> </figcaption>
+    </figure></p>
+<p><figure><a class="lightgallery" href="/Lukes-Blog/posts/tryhackme-ice/iceprocessmigration.png" title="Basic configuration preview" data-thumbnail="/Lukes-Blog/posts/tryhackme-ice/iceprocessmigration.png" data-sub-html="<h2> </h2><p>Basic configuration preview</p>">
+        <img
+            class="lazyload"
+            src="/Lukes-Blog/svg/loading.min.svg"
+            data-src="/Lukes-Blog/posts/tryhackme-ice/iceprocessmigration.png"
+            data-srcset="/Lukes-Blog/posts/tryhackme-ice/iceprocessmigration.png, /Lukes-Blog/posts/tryhackme-ice/iceprocessmigration.png 1.5x, /Lukes-Blog/posts/tryhackme-ice/iceprocessmigration.png 2x"
+            data-sizes="auto"
+            alt="/Lukes-Blog/posts/tryhackme-ice/iceprocessmigration.png" width="1280" height="720" />
+    </a><figcaption class="image-caption"> </figcaption>
+    </figure>
+<figure><a class="lightgallery" href="/Lukes-Blog/posts/tryhackme-ice/icecredsall.png" title="Basic configuration preview" data-thumbnail="/Lukes-Blog/posts/tryhackme-ice/icecredsall.png" data-sub-html="<h2> </h2><p>Basic configuration preview</p>">
+        <img
+            class="lazyload"
+            src="/Lukes-Blog/svg/loading.min.svg"
+            data-src="/Lukes-Blog/posts/tryhackme-ice/icecredsall.png"
+            data-srcset="/Lukes-Blog/posts/tryhackme-ice/icecredsall.png, /Lukes-Blog/posts/tryhackme-ice/icecredsall.png 1.5x, /Lukes-Blog/posts/tryhackme-ice/icecredsall.png 2x"
+            data-sizes="auto"
+            alt="/Lukes-Blog/posts/tryhackme-ice/icecredsall.png" width="1280" height="720" />
+    </a><figcaption class="image-caption"> </figcaption>
+    </figure>
+<figure><a class="lightgallery" href="/Lukes-Blog/posts/tryhackme-ice/featured-image.png" title="Basic configuration preview" data-thumbnail="/Lukes-Blog/posts/tryhackme-ice/featured-image.png" data-sub-html="<h2> </h2><p>Basic configuration preview</p>">
+        <img
+            class="lazyload"
+            src="/Lukes-Blog/svg/loading.min.svg"
+            data-src="/Lukes-Blog/posts/tryhackme-ice/featured-image.png"
+            data-srcset="/Lukes-Blog/posts/tryhackme-ice/featured-image.png, /Lukes-Blog/posts/tryhackme-ice/featured-image.png 1.5x, /Lukes-Blog/posts/tryhackme-ice/featured-image.png 2x"
+            data-sizes="auto"
+            alt="/Lukes-Blog/posts/tryhackme-ice/featured-image.png" width="1280" height="720" />
+    </a><figcaption class="image-caption"> </figcaption>
+    </figure>
+^ Rooted</p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
