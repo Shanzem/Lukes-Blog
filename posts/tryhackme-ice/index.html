@@ -33,7 +33,7 @@
                             "url": "https:\/\/shanzem.github.io\/Lukes-Blog\/posts\/tryhackme-ice\/featured-image.png",
                             "width":  1280 ,
                             "height":  720 
-                        }],"genre": "posts","keywords": "Hacking, Learning, TryHackMe","wordcount":  1138 ,
+                        }],"genre": "posts","keywords": "Hacking, Learning, TryHackMe","wordcount":  1168 ,
         "url": "https:\/\/shanzem.github.io\/Lukes-Blog\/posts\/tryhackme-ice\/","datePublished": "2023-03-23T21:29:01+08:00","dateModified": "2023-03-23T21:29:01+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -75,7 +75,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">TryHackMe-ICE</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://shanzem.github.io/Lukes-Blog" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Luke Hays</a></span>&nbsp;<span class="post-category">included in <a href="/Lukes-Blog/categories/hacking-tryhackme/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hacking - TryHackMe</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-03-23">2023-03-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1138 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-03-23">2023-03-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1168 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
@@ -309,7 +309,9 @@ arbitrary code via an HTTP request with a large number of headers.
 </code></pre><p>This Expolit will allow me to gain ROOT, I will now check Metasploit to see if it has a working script.</p>
 <p>For which it does.</p>
 <pre tabindex="0"><code class="language-list" data-lang="list">exploit/windows/http/icecast_header
-</code></pre><p><figure><a class="lightgallery" href="/Lukes-Blog/posts/tryhackme-ice/icebackdoor.png" title="Basic configuration preview" data-thumbnail="/Lukes-Blog/posts/tryhackme-ice/icebackdoor.png" data-sub-html="<h2> </h2><p>Basic configuration preview</p>">
+</code></pre><p>Choosing the exploit/windows/http/icecast_header we can then setup the Local host and Remote host IPS and ports using the show options choice.</p>
+<p>Next we can
+<figure><a class="lightgallery" href="/Lukes-Blog/posts/tryhackme-ice/icebackdoor.png" title="Basic configuration preview" data-thumbnail="/Lukes-Blog/posts/tryhackme-ice/icebackdoor.png" data-sub-html="<h2> </h2><p>Basic configuration preview</p>">
         <img
             class="lazyload"
             src="/Lukes-Blog/svg/loading.min.svg"
@@ -318,8 +320,9 @@ arbitrary code via an HTTP request with a large number of headers.
             data-sizes="auto"
             alt="/Lukes-Blog/posts/tryhackme-ice/icebackdoor.png" width="1280" height="720" />
     </a><figcaption class="image-caption"> </figcaption>
-    </figure></p>
-<p><figure><a class="lightgallery" href="/Lukes-Blog/posts/tryhackme-ice/iceloadkiwi.png" title="Basic configuration preview" data-thumbnail="/Lukes-Blog/posts/tryhackme-ice/iceloadkiwi.png" data-sub-html="<h2> </h2><p>Basic configuration preview</p>">
+    </figure>
+Loading up Kiwi for a  event
+<figure><a class="lightgallery" href="/Lukes-Blog/posts/tryhackme-ice/iceloadkiwi.png" title="Basic configuration preview" data-thumbnail="/Lukes-Blog/posts/tryhackme-ice/iceloadkiwi.png" data-sub-html="<h2> </h2><p>Basic configuration preview</p>">
         <img
             class="lazyload"
             src="/Lukes-Blog/svg/loading.min.svg"
